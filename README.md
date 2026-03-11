@@ -384,3 +384,7 @@ If you need commercial usage rights:
 
 © 2025 Andrii Shramko. All rights reserved.
 
+---
+
+Development and research documentation (architecture, loss functions, kinematics, deployment, etc.) is available in the [Research-docs](Research-docs/) folder. It was produced with AI assistance and is shared for reference only; it may contain inaccuracies or be outdated.
+
