@@ -1,3 +1,5 @@
+I'm thrilled to introduce Shramko-Human-4DGS — a custom ComfyUI node that completely changes how we handle volumetric video. It gives you true 360-degree 4DGS with zero jitter and rock-solid stability. We’ve also made sure the data is pre-optimized for instant WebGL and VR use. Plus, it’s 100% safe for your commercial studio projects. Hop on the waitlist — the link is https://comfyui-4dgs-volumetric-node.eu/ .
+
 # Andrii Shramko 4DGS Generator - Apple Sharp
 
 **Professional Desktop Application for Converting Video Frames to 4D Gaussian Splatting Sequences**
