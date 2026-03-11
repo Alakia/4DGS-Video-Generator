@@ -1,5 +1,3 @@
-I'm thrilled to introduce Shramko-Human-4DGS — a custom ComfyUI node that completely changes how we handle volumetric video. It gives you true 360-degree 4DGS with zero jitter and rock-solid stability. We’ve also made sure the data is pre-optimized for instant WebGL and VR use. Plus, it’s 100% safe for your commercial studio projects. Hop on the waitlist — the link is https://comfyui-4dgs-volumetric-node.eu/ .
-
 # Andrii Shramko 4DGS Generator - Apple Sharp
 
 **Professional Desktop Application for Converting Video Frames to 4D Gaussian Splatting Sequences**
@@ -96,6 +94,10 @@ python video_app.py
 Or use the provided scripts:
 - **Windows**: `run_video_app.bat`
 - **Linux/Mac**: `run_video_app.sh`
+
+## 📚 Development & Research Documentation
+
+Research and implementation docs (architecture, loss functions, kinematics, deployment, etc.) are in the **[Research-docs](Research-docs/)** folder. Start from [Research-docs/README.md](Research-docs/README.md) for the v6 index. *This documentation was produced with AI assistance and is shared for reference only; it may contain inaccuracies or be outdated.*
 
 ## 🎬 Usage Workflow
 
@@ -202,8 +204,9 @@ The focal length is:
 │   ├── settings.py              # Settings management
 │   ├── convert_sharp_ply.py     # PLY format converter
 │   └── requirements.txt         # Python dependencies
-├── ml-sharp/                     # Apple SHARP model (submodule)
-├── sample-video/                 # Sample video for testing
+├── Research-docs/               # Development & research documentation (v5, v6)
+├── ml-sharp/                    # Apple SHARP model (submodule)
+├── sample-video/                # Sample video for testing
 │   └── na-avokado.mp4           # Test video file
 ├── build_exe.spec               # PyInstaller spec file
 ├── EXE_README.md                # EXE version documentation
