@@ -95,10 +95,6 @@ Or use the provided scripts:
 - **Windows**: `run_video_app.bat`
 - **Linux/Mac**: `run_video_app.sh`
 
-## 📚 Development & Research Documentation
-
-Research and implementation docs (architecture, loss functions, kinematics, deployment, etc.) are in the **[Research-docs](Research-docs/)** folder. Start from [Research-docs/README.md](Research-docs/README.md) for the v6 index. *This documentation was produced with AI assistance and is shared for reference only; it may contain inaccuracies or be outdated.*
-
 ## 🎬 Usage Workflow
 
 ### Step 1: Select Video File
@@ -204,7 +200,6 @@ The focal length is:
 │   ├── settings.py              # Settings management
 │   ├── convert_sharp_ply.py     # PLY format converter
 │   └── requirements.txt         # Python dependencies
-├── Research-docs/               # Development & research documentation (v5, v6)
 ├── ml-sharp/                    # Apple SHARP model (submodule)
 ├── sample-video/                # Sample video for testing
 │   └── na-avokado.mp4           # Test video file
@@ -388,8 +383,4 @@ If you need commercial usage rights:
 **Made with ❤️ by Andrii Shramko**
 
 © 2025 Andrii Shramko. All rights reserved.
-
----
-
-Development and research documentation (architecture, loss functions, kinematics, deployment, etc.) is available in the [Research-docs](Research-docs/) folder. It was produced with AI assistance and is shared for reference only; it may contain inaccuracies or be outdated.
 
